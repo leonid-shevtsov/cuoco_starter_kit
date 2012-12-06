@@ -20,7 +20,7 @@ And you've already deployed a 'Hello, world' configuration to your virtual machi
 
 * Linux or OS X;
 * Ruby 1.9;
-* [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
+* [VirtualBox](https://www.virtualbox.org/).
 
 ## Contents
 
