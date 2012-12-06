@@ -7,12 +7,20 @@ This is a sample configuration respository to kickstart your server configuratio
     git clone git://github.com/leonid-shevtsov/cuoco_starter_kit.git my_configuration
     cd my_configuration
     rm -rf .git
+    git init
+
     bundle install
     vagrant up
     vagrant ssh-config >>~/.ssh/config
     cap cuoco:update_configuration
 
 And you've already deployed a 'Hello, world' configuration to your virtual machine.
+
+## Requirements
+
+* Linux or OS X;
+* Ruby 1.9;
+* [VirtualBox](https://en.wikipedia.org/wiki/VirtualBox).
 
 ## Contents
 
